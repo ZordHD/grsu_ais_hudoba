@@ -1,0 +1,13 @@
+Ок@DESKTOP-AK0H6A8 MINGW64 ~/grsu_ais_hudoba (main)
+$ git log
+commit c25936152ec8dabc930e74d71770616f8e507c47 (HEAD -> main)
+Author: ZordHD <105443496+ZordHD@users.noreply.github.com>
+Date:   Tue Feb 28 21:29:06 2023 +0300
+
+    README changed
+
+commit eaa322bc75f555646f9f1ff8ffa4a7791b47b9d7 (origin/main, origin/HEAD
+Author: ZordHD <105443496+ZordHD@users.noreply.github.com>
+Date:   Wed Feb 22 15:26:58 2023 +0300
+
+    Initial commit
