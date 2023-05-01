@@ -1,20 +1,15 @@
 version: '3.3'
 services:
-  wordpress:
-    image: wordpress
+  joomla:
+    image: joomla
     restart: always
     links:
       - wordpressdb-hudoba:mysql
     ports:
-      - "8080:80"
-    working_dir: /var/www/html
-    volumes:
-      - "/opt/wp-content:/var/www/html/wp-content"
-    environment:
-      WORDPRESS_DB_HOST: wordpressdb-hudoba:3306
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: wordpress
-      WORDPRESS_DB_NAME: wordpress
+     - 8080:80
+     environment:
+        JOOMLA_DB_HOST: wordpressdb-hudoba
+        JOOMLA_DB_PASSWORD: secret 
 
   wordpressdb-hudoba:
     image: mariadb:latest
